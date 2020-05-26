@@ -14,6 +14,10 @@
     flex-direction: row;
     min-height: 20px;
     height: $row-height;
+
+    &:nth-child(1) {
+      user-select: none;
+    }
   }
 
   .row-info {
@@ -29,6 +33,8 @@
     border: 1px solid $border-color;
     background: #f8f9fa;
     border-top: none;
+
+    user-select: none;
   }
 
   .row-data {
